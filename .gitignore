@@ -8,6 +8,9 @@
 *.out
 *.toc
 auto
+*.synctex.gz
+cv.pdf
+coverletter.pdf
 
 ## Intermediate documents:
 *.dvi
