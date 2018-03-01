@@ -7,6 +7,7 @@ ALL: cv.pdf coverletter.pdf
 
 cv.pdf: $(SRCS)
 	$(LATEX) --halt-on-error cv.tex
+	$(LATEX) --halt-on-error cv.tex
 
 coverletter.pdf: coverletter.tex
 	$(LATEX) --halt-on-error coverletter.tex
