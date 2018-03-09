@@ -24,7 +24,8 @@ branches:
   - master
 
 deploy:
-  branch: v1.8.47
+  edge:
+    branch: v1.8.47
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
