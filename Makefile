@@ -1,9 +1,9 @@
-.PHONY: cv.pdf coverletter.pdf
+.PHONY: cv.pdf
 
 LATEX = xelatex
 SRCS = $(shell find . -name '*.tex')
 
-ALL: cv.pdf coverletter.pdf
+ALL: cv.pdf
 
 cv.pdf: $(SRCS)
 	$(LATEX) --halt-on-error cv.tex
