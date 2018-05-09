@@ -2,17 +2,15 @@
 
 LATEX = xelatex
 SRCS = $(shell find . -name '*.tex')
+TEX_FLAGS = -interaction=nonstopmode -halt-on-error
 
 ALL: cv.pdf
 
 cv.pdf: $(SRCS)
-	$(LATEX) --halt-on-error cv.tex
-	$(LATEX) --halt-on-error cv.tex
-
-coverletter.pdf: coverletter.tex
-	$(LATEX) --halt-on-error coverletter.tex
+	$(LATEX) $(TEX_FLAGS) cv.tex
+	$(LATEX) $(TEX_FLAGS) cv.tex
 
 clean:
 	rm -f *.aux *.log *.out *.bbl *.blg *~ *.bak $(FIGS) *.ps *.pdf *.synctex.gz
 	rm -rf auto
-	rm -f cv.pdf coverletter.pdf
+	rm -f cv.pdf

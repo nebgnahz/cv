@@ -4,16 +4,16 @@ addons:
   apt:
     packages:
       - make
+      - fonts-lmodern
       - texlive-fonts-extra
       - texlive-fonts-recommended
       - texlive-generic-extra
       - texlive-latex-extra
       - texlive-math-extra
-      - texlive-pictures
-      - texlive-pictures
-      - texlive-science
       - texlive-science
       - texlive-xetex
+      - texlive-latex-base
+      - latex-xcolor
 
 script:
   - make
