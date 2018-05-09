@@ -4,7 +4,6 @@ My CV based on Awesome CV
 [![Build Status][travis-badge]][travis]
 
 - [CV](https://nebgnahz.github.io/cv/cv.pdf)
-- [Cover Letter](https://nebgnahz.github.io/cv/coverletter.pdf)
 
 ## Credit
 
