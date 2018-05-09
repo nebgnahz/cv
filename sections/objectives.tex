@@ -1,4 +1,10 @@
-\cvsection{Objective}
+\newcommand{\soutthick}[1]{%
+  \renewcommand{\ULthickness}{1.4pt}%
+  \sout{#1}%
+  \renewcommand{\ULthickness}{.4pt}% Resetting to ulem default
+}
+
+\cvsection{\soutthick{Objective}}
 
 \paragraphstyle
 
